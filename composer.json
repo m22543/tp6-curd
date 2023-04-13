@@ -1,0 +1,26 @@
+{
+    "name": "xingchen/tp6-curd",
+    "description": "基于thinkphp6的curd",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "topthink/framework": "^6.0.0",
+        "symfony/var-exporter": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xingchen",
+            "email": "2630481389@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "xingchen\\tp6curd\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
